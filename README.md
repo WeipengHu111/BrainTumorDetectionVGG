@@ -1,7 +1,8 @@
 # BrainTumorDetectionVGG
 Brain tumors can be classified as either benign or malignant, and early detection is crucial for improved patient outcomes. Deep Neural Networks (DNNs), specifically Convolutional Neural Networks (CNNs), have shown promising results in detecting brain tumors through Magnetic Resonance Imaging (MRI) images. We propose a novel approach that combines feature extraction techniques with VGG-16 CNN to improve tumor detection accuracy. We evaluate network performance using Sensitivity, Specificity, and Precision, in addition to the accuracy criterion. Our results show that the SoftMax classifier has the highest accuracy in the CNN based on the testing images. Our proposed method achieved a remarkable accuracy of 100% on the small scale of test data, which highlights the potential of DNNs in improving the accuracy of tumor diagnosis. This method has important implications for clinical practice, as it can assist physicians in making more informed diagnoses and devising appropriate treatment plans for patients with brain tumors. By utilizing the power of VGG-16 CNN in analyzing medical imaging data, we can obtain valuable information about the location, size, and type of the tumor. Ultimately, this can lead to more precise and effective treatment plans, resulting in improved patient outcomes.
 
-1. algorithm and baseline implementation-VGG16
+1.algorithm and baseline implementation-VGG16
+
 This work is to do image classification task for tumor detection. The main model on this task is VGG-16.
 The baseline is DenseNet which being tested on the same dataset. 
 The algorithm and basline implementation 
@@ -9,7 +10,8 @@ are all in the source code file which is called detectingbraintumors-densenet121
 The baseline (DenseNet) is the first model output after running in the source code. 
 VGG-16 is the second model output after runs the code. 
 
-2. Datasets
+2.Datasets
+
 The data set images used in this paper include brain MRI images of 245 (images) patients, 
 including normal and brain tumors patients who referred to imaging centers because of headaches 
 After examination and diagnosis of the doctor, 
@@ -22,7 +24,8 @@ the models. Test, Train, and Validation datasets will be divided in the algorith
 For the TEST, TRAIN, and VAL files, they are output datasets after I run the source code. The total number 
 of the datasets images is 245, which is a relatively small scale as a dataset.
 
-3. Outcome
+3.Outcome
+
 For VGG-16
 
 accuracy
